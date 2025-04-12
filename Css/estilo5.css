@@ -1,0 +1,14 @@
+.textos
+{
+    position:relative;
+    width: 80%;
+    margin-left: 250px;
+    color: blue;
+    font-size: 17px;
+    font-family:'Times New Roman', Times, serif;
+}
+.textos > div
+{
+    border-radius: 18px;
+    
+}

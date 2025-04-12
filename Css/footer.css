@@ -1,0 +1,63 @@
+/* Footer general */
+.footer 
+{
+    background-color:none;
+    color: #fff;
+    padding: 30px 0;
+    font-family: 'Arial', sans-serif;
+} 
+  /* Contenedor interno */
+.footer-container 
+{
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+  /* Zona Gaming*/
+.footer-brand h2
+{
+    font-size: 24px;
+    color: #00ff99;
+    margin: 0;
+}
+  /* Navegación */
+.footer-nav ul 
+{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+  
+.footer-nav a 
+{
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.footer-nav a:hover 
+{
+    color: #00ccff;
+}
+.footer-social 
+{
+    display: flex;
+    gap: 15px;
+    font-size: 20px;
+}
+.footer-social a 
+{
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s;
+} 
+.footer-social a:hover
+{
+    color: #00ff99;
+}
+  

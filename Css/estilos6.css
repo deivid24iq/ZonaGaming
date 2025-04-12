@@ -1,0 +1,46 @@
+.cuadriculas 
+{
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  margin-left: 230px;
+}
+  
+.item
+{
+  background-color: rgb(57, 55, 224);
+  box-shadow: 4px 4px 4px rgb(16, 16, 205);
+  text-align: center;
+  align-items: center;
+  margin: 0;
+  border-radius: 30px;
+  overflow: hidden;
+  padding: 10%;
+  transition: all 0.3s ease;
+}
+  
+.item img 
+{
+  width: 50%;
+  height: auto;
+  padding: 5px;
+  transition:transform 0.3s ease;
+  filter: brightness(1);
+  transform-origin: center;
+  max-width: 100%;
+}
+  
+.item:hover img 
+{
+  transform: scale(1.5);
+  filter: brightness(0.7);
+  
+}
+.item  > h2
+{
+  color: black;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 15pt;
+}
