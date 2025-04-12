@@ -2,7 +2,7 @@
 {
     width: 100%;
     height: 450px;
-    background-image:url(/Imagenes/banner/bn2.jpg);
+    background-image:url(../Imagenes/banner/bn2.jpg);
     background-position: center;
     background-size:cover;
     align-items:center;
