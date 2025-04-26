@@ -1,0 +1,71 @@
+.arcades 
+{
+  display: inline-block; /*Configuraciones del cuadro del menu secundario*/
+  font-size: 20pt;
+  position:fixed;
+  width: 100px; /* Define un ancho fijo para el menú */
+  height: 100%; /* Asegura que el menú ocupe toda la altura de la pantalla */
+  top: 0; /* Posiciona el menú en la parte superior */
+  left: 0; /* Posiciona el menú en el lado izquierdo */
+  background-color:none(47, 9, 219); /* Color de fondo del menú */
+}
+.arcades> li > a /* color de las letras del menu secundario y subrayado*/
+{
+  text-decoration: none;
+  color: rgb(233, 10, 10);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}  
+.imgmensecun
+{
+  position: relative; /* Agrega una posición relativa para la imagen */
+  height: 10%; /* Define un alto para la imagen */
+  width: 150px; /* Define un ancho para la imagen */
+  top: 0%; /* Posiciona la imagen en la parte superior */
+}  
+.foco.activo
+{
+  background-color:blue; /* Color de fondo para el enlace activo */
+  color: rgb(45, 236, 220); /* Color del texto para el enlace activo */
+  transform: scale(1.05); /* Efecto de escala para el enlace activo */
+  font-weight: bold; /* Peso de la fuente para el enlace activo */
+}
+.imgarcade
+{
+  width: 80%;
+  height: 250px;
+  margin-left: 250px;
+}
+.menuprimarioarcade  /*inicio historia arcade*/
+{
+  margin: 0pt;
+  background-color:none; /*color de la linea*/
+  width: 77%;
+  height: 15%;
+  margin-left: 500px;
+  padding: 5pt;
+}
+.migadepan ul
+{
+  list-style:none; /*Sin viñetas o sin numeracion*/
+}
+.menuprimarioarcade
+{
+  display:block;
+  font-size: 20pt;
+  position:center/*´Para ajuste adicionales*/
+}
+.menuprimarioarcade >li
+{
+  display: inline-block;
+  padding: 100pt; /*distancia entre botones del menu*/
+  padding: 3px 13px;
+  background-color: #1b1b1b;
+  border-radius: 15px;
+  font-weight:bold;
+  margin-top: 18px;
+  font-family:inherit;
+}
+.menuprimarioarcade >li > a
+{
+  text-decoration: none;
+}
